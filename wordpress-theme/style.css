@@ -1,0 +1,33 @@
+/*
+Theme Name: ApexBiz Enterprise WordPress Theme
+Theme URI: https://demo.apexbiz-theme.wp
+Author: ApexBiz Team
+Author URI: https://apexbiz-theme.wp
+Description: Executive Precision WordPress business theme featuring modular Full Site Editing (FSE) block patterns, high-performance hero slider, Elementor Pro compatibility, and 0.4s load times.
+Version: 6.7.2
+Requires at least: 6.5
+Tested up to: 6.7
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: apexbiz
+Tags: full-site-editing, block-patterns, block-styles, grid-layout, custom-colors, custom-menu, featured-images, custom-logo, translation-ready, e-commerce
+*/
+
+/* Reset & Variables matching Executive Precision */
+:root {
+  --apexbiz-primary: #131b2e;
+  --apexbiz-secondary: #0051d5;
+  --apexbiz-accent: #6ffbbe;
+  --apexbiz-surface: #f8f9ff;
+  --apexbiz-text: #0b1c30;
+  --apexbiz-text-muted: #45464d;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--apexbiz-text);
+  background-color: var(--apexbiz-surface);
+  margin: 0;
+  padding: 0;
+}
